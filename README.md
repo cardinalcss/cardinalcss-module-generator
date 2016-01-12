@@ -7,32 +7,19 @@ A [Node.js](https://nodejs.org/en/) script that automatically generates the base
 1. Clone this repository to your local machine.
 
     ```sh
-    git clone [git-url]
+    git clone git@github.com:cardinalcss/cardinalcss-module-generator.git
     ```
 
-2. Execute the included wizard script from the root directory of this project, answer the prompts with the appropriate information.
+2. Execute the included wizard script from the root directory of this project, and answer the prompts with the appropriate information.
 
     ```sh
     node ./cardinalcss-module-boilerplate/start
-
-    Your Name:
-    Your Email:
-    Your GitHub Username:
-    Module Name: cardinalcss-
-
-    Module Description (complete the following sentence):
-    A Cardinal CSS module
-
-    Module Keywords (add keywords to the following list, separated by commas):
-    cardinal, cardinalcss, css, oocss, postcss,
     ```
 
 3. Wait for the script to complete, then continue working in the new directory that was created for your new module.
 
     ```sh
-    Installing npm packages...
-    Done. Remove this directory if you wish, and continue working in ../cardinalcss-[MODULE_NAME]/
-
+    rm -rf ./cardinalcss-module-generator
     cd ./cardinalcss-[MODULE_NAME]
     ```
 
