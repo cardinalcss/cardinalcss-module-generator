@@ -1,42 +1,43 @@
-# PostCSS Plugin Boilerplate
+# cardinalcss-module-boilerplate
 
-<img align="right" width="135" height="95"
-     title="Philosopher’s stone, logo of PostCSS"
-     src="http://postcss.github.io/postcss/logo-leftp.png">
+A [Node.js](https://nodejs.org/en/) script that automatically generates the baseline folder and file structure for a new [Cardinal CSS](http://cardinalcss.com) module.
 
-Сreate new PostCSS plugins in a few steps:
+## Usage
 
-1. Clone this repository:
-
-   ```sh
-  git clone https://github.com/postcss/postcss-plugin-boilerplate.git
-   ```
-
-2. Execute the wizard script. It will ask you a few questions
-   and fill all files with your data.
+1. Clone this repository to your local machine.
 
     ```sh
-   node ./postcss-plugin-boilerplate/start
+    git clone [git-url]
     ```
 
-3. Your plugin repository will now have a clean Git history.
-   [Create the GitHub repository](https://github.com/new)
-   and push your project there.
+2. Execute the included wizard script from the root directory of this project, answer the prompts with the appropriate information.
 
-4. Add your project to [Travis CI](https://travis-ci.org).
+    ```sh
+    node ./cardinalcss-module-boilerplate/start
 
-5. Write some code to `index.js` and tests to `test.js`.
+    Your Name:
+    Your Email:
+    Your GitHub Username:
+    Module Name: cardinalcss-
 
-6. Execute `npm test` command
+    Module Description (complete the following sentence):
+    A Cardinal CSS module
 
-7. Add input and output CSS examples to `README.md`.
+    Module Keywords (add keywords to the following list, separated by commas):
+    cardinal, cardinalcss, css, oocss, postcss,
+    ```
 
-8. Add options descriptions if your plugin has them.
+3. Wait for the script to complete, then continue working in the new directory that was created for your new module.
 
-9. Fill `CHANGELOG.md` with initial version and release it to npm.
+    ```sh
+    Installing npm packages...
+    Done. Remove this directory if you wish, and continue working in ../cardinalcss-[MODULE_NAME]/
 
-10. Fork [PostCSS](https://github.com/postcss/postcss), add your plugin to
-    [Plugins section](https://github.com/postcss/postcss/blob/master/docs/plugins.md)
-    in `README.md`, and send a pull request.
+    cd ./cardinalcss-[MODULE_NAME]
+    ```
 
-11. Follow [@PostCSS](https://twitter.com/postcss) to get the latest updates.
+## Credits
+
+This fork is essentially a carbon copy of the awesome [postcss-plugin-boilerplate](https://github.com/postcss/postcss-plugin-boilerplate) project by [@ai](https://github.com/ai). It’s been slightly adapted to generate Cardinal CSS modules instead of PostCSS plugins.
+
+Many thanks for your great work!
