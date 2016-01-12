@@ -16,7 +16,7 @@ A [Node.js](https://nodejs.org/en/) script that automatically generates the base
     node ./cardinalcss-module-boilerplate/start
     ```
 
-3. Wait for the script to complete, then continue working in the new directory that was created for your new module.
+3. Once the script is complete, you can remove the generator project and continue working in the new directory that was created.
 
     ```sh
     rm -rf ./cardinalcss-module-generator
