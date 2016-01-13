@@ -1,7 +1,68 @@
 # MODULE_TITLE [![Build Status][ci-img]][ci]
 
-A [Cardinal CSS] module MODULE_DESC
+> A [Cardinal CSS] module MODULE_DESC
 
+## Installation
+
+```
+npm install --save MODULE_TITLE
+```
+
+## Usage
+
+Enter usage instructions here.
+
+## Contributing
+
+- ⇄ Pull requests and ★ Stars are always welcome.
+- For bugs and feature requests, please create an issue.
+- Pull requests must be accompanied by passing automated tests (`$ npm test`).
+
+## Credits
+
+MODULE_TITLE is a project by [@cbracco]. It is influenced by the following organizations, projects, and individuals:
+
+- [Atomic CSS] ([@yahoo])
+- [Basscss] ([@jxnblk])
+- [H5BP] ([@h5bp])
+- [inuit.css] ([@csswizardry])
+- [Kraken] ([@cferdinandi])
+- [OOCSS] ([@stubbornella])
+- [Pattern Lab] ([@bradfrost], [@dmolsen])
+- [Scally] ([@chris-pearce])
+- [SUIT CSS] ([@necolas])
+- [TACHYONS] ([@mrmrs], [@johnotander])
+
+## [Changelog]
+
+## [License]
+
+[@bradfrost]: https://github.com/bradfrost
+[@cbracco]: https://github.com/cbracco
+[@cferdinandi]: https://github.com/cferdinandi
+[@chris-pearce]: https://github.com/chris-pearce
+[@csswizardry]: https://github.com/csswizardry
+[@dmolsen]: https://github.com/dmolsen
+[@h5bp]: https://github.com/h5bp
+[@johnotander]: https://github.com/johnotander
+[@jxnblk]: https://github.com/jxnblk
+[@mrmrs]: https://github.com/mrmrs
+[@necolas]: https://github.com/necolas
+[@stubbornella]: https://github.com/stubbornella
+[@yahoo]: https://github.com/yahoo
+[Atomic CSS]: http://acss.io
+[Basscss]: http://www.basscss.com
 [Cardinal CSS]: https://cardinalcss.com
-[ci-img]:  https://travis-ci.org/GITHUB_NAME/MODULE_NAME.svg
-[ci]:      https://travis-ci.org/GITHUB_NAME/MODULE_NAME
+[Changelog]: CHANGELOG.md
+[ci-img]: https://travis-ci.org/GITHUB_NAME/MODULE_NAME.svg
+[ci]: https://travis-ci.org/GITHUB_NAME/MODULE_NAME
+[H5BP]: https://html5boilerplate.com
+[inuit.css]: http://inuitcss.com
+[Kraken]: http://cferdinandi.github.io/kraken
+[License]: LICENSE
+[OOCSS]: http://oocss.org
+[Pattern Lab]: http://patternlab.io
+[Semantic Versioning]: http://semver.org
+[Scally]: http://scally.chris-pearce.me
+[SUIT CSS]: https://suitcss.github.io
+[TACHYONS]: http://tachyons.io

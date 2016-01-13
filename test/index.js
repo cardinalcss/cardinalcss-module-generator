@@ -1,3 +1,4 @@
+var fs = require('fs')
 var postcss = require('postcss')
 var atImport = require('postcss-import')
 var customProperties = require('postcss-custom-properties')
@@ -8,9 +9,12 @@ var mqpacker = require('css-mqpacker')
 var removeRoot = require('postcss-remove-root')
 var test = require('tape')
 
-/*test('does something', function (t) {
+test('it compiles postcss to css', function (t) {
 
-  var fixture = postcss().use([
+  var file = fs.readFileSync('test/fixtures/compile.css', 'utf-8').trim()
+  var fileExpected = fs.readFileSync('test/fixtures/compile.css', 'utf-8').trim()
+
+  var fixture = postcss().use(
     atImport,
     customProperties,
     customMedia,
@@ -18,14 +22,16 @@ var test = require('tape')
     autoprefixer('last 2 versions'),
     mqpacker({ sort: true }),
     removeRoot
-  ])
-  .process(
-    fs.readFileSync('test/fixtures/file.css', 'utf-8').trim()
-  ).css.trim()
+  )
+  .process(file).css.trim()
 
-  var expected = fs.readFileSync('test/fixtures/file.expected.css', 'utf-8').trim()
-
-  t.same(fixture, expected)
+  t.same(fixture, fileExpected)
   t.end()
+
+})
+
+/*test('it does something', function (t) {
+
+  // test code here
 
 })*/

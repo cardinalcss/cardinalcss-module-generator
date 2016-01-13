@@ -1,0 +1,16 @@
+:root {
+  --foo: #fff;
+  --bar: #000;
+}
+
+@custom-media --baz (min-width: 320px);
+
+.foo {
+  color: var(--foo);
+}
+
+@media screen and (--baz) {
+  .bar {
+    color: var(--bar);
+  }
+}

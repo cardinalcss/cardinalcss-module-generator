@@ -1,0 +1,9 @@
+.foo {
+  color: #fff;
+}
+
+@media screen and (min-width: 320px) {
+  .bar {
+    color: #000;
+  }
+}
