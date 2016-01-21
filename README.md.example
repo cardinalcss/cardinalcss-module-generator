@@ -20,7 +20,7 @@ Enter usage instructions here.
 
 ## Credits
 
-MODULE_TITLE is a project by [@cbracco]. It is influenced by the following organizations, projects, and individuals:
+MODULE_TITLE is a project by [@cbracco] and [its contributors]. It is influenced by the following organizations, projects, and individuals:
 
 - [Atomic CSS] ([@yahoo])
 - [Basscss] ([@jxnblk])
@@ -58,6 +58,7 @@ MODULE_TITLE is a project by [@cbracco]. It is influenced by the following organ
 [ci]: https://travis-ci.org/GITHUB_NAME/MODULE_NAME
 [H5BP]: https://html5boilerplate.com
 [inuit.css]: http://inuitcss.com
+[its contributors]: https://github.com/GITHUB_NAME/MODULE_NAME/graphs/contributors
 [Kraken]: http://cferdinandi.github.io/kraken
 [License]: LICENSE
 [OOCSS]: http://oocss.org
