@@ -19,7 +19,7 @@ var questions = {
   AUTHOR_NAME: 'Your Name: ',
   AUTHOR_EMAIL: 'Your Email: ',
   AUTHOR_YEAR: 'What year is it?! ',
-  GITHUB_NAME: 'Your GitHub Username: ',
+  GITHUB_NAME: 'Your GitHub Username/Organization: ',
   MODULE_NAME: 'Module Name: cardinalcss-',
   MODULE_DESC: '\nModule Description (complete the following sentence):\nA Cardinal CSS module ',
   KEYWORDS: '\nModule Keywords (add keywords to the following list, separated by commas):\ncardinal, cardinalcss, css, oocss, postcss, module, '
