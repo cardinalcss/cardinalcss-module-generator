@@ -2,6 +2,10 @@
 
 > A [Cardinal CSS] module MODULE_DESC
 
+| Unminified | Unminified + Gzipped | Minified | Minified + Gzipped |
+|:----------:|:--------------------:|:--------:|:------------------:|
+|            |                      |          |                    |
+
 ## Installation
 
 ```
@@ -20,7 +24,7 @@ Enter usage instructions here.
 
 ## Credits
 
-MODULE_TITLE is a project by [@cbracco] and [its contributors]. It is influenced by the following organizations, projects, and individuals:
+MODULE_TITLE is a project by [@cbracco] and [its contributors]. It is influenced by the following organizations, projects, articles, and individuals:
 
 - [Atomic CSS] ([@yahoo])
 - [Basscss] ([@jxnblk])
@@ -32,6 +36,8 @@ MODULE_TITLE is a project by [@cbracco] and [its contributors]. It is influenced
 - [Scally] ([@chris-pearce])
 - [SUIT CSS] ([@necolas])
 - [TACHYONS] ([@mrmrs], [@johnotander])
+
+Thank you all for your hard work.
 
 ## [Changelog]
 
