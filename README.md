@@ -1,4 +1,4 @@
-# cardinalcss-module-boilerplate
+# cardinalcss-module-generator
 
 A [Node.js](https://nodejs.org/en/) script that automatically generates the baseline folder and file structure for a new [Cardinal CSS](http://cardinalcss.com) module.
 
@@ -13,7 +13,7 @@ A [Node.js](https://nodejs.org/en/) script that automatically generates the base
 2. Execute the included wizard script from the root directory of this project, and answer the prompts with the appropriate information.
 
     ```sh
-    node ./cardinalcss-module-boilerplate/start
+    node ./cardinalcss-module-generator/start
     ```
 
 3. After you’ve answered the prompts and the script has finished running, you can remove the generator project if you wish and continue working in the new directory that was created.
